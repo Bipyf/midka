@@ -1,0 +1,122 @@
+body {
+  background: rgb(213, 212, 212);
+  background: linear-gradient(90deg, rgba(213, 212, 212, 1) 0%, rgba(255, 255, 255, 1) 69%);
+}
+
+.logo {
+  float: left;
+}
+
+.imlogo {
+  float: left;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.vr3 {
+  margin-left: 220px;
+  position: absolute;
+  border-left: 6px solid rgb(40, 42, 40);
+  height: 1000px;
+}
+.vr {
+  margin-left: 220px;
+  position: absolute;
+  border-left: 6px solid rgb(40, 42, 40);
+  height: 1800px;
+}
+
+.vr1 {
+  margin-left: 220px;
+  position: absolute;
+  border-left: 6px solid rgb(40, 42, 40);
+  height: 1500px;
+}
+
+.logotxt {
+  font-family: 'Cinzel', serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+.logotxt2 {
+  margin-top: -20px;
+  font-family: 'Vollkorn', serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+}
+
+.welc {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.podwelc {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+
+.abus {
+  margin-left: 22px;
+}
+
+.krk {
+  float: right;
+}
+
+.erc {
+  float: left;
+  margin-left: 55px;
+}
+
+.loch {
+  float: left;
+}
+
+.loch2 {
+  float: right;
+}
+
+.hcyh {
+  margin-left: -140px;
+}
+
+input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.lab1 {
+  -webkit-appearance: push-button;
+  -moz-appearance: button;
+  cursor: pointer;
+  float: left;
+  position: absolute;
+  line-height: 170px
+}
+
+.div1 {
+  border-style: inset;
+  display: none;
+  float: left;
+  width: 400px;
+  height: 100px;
+  color: white;
+  text-align: center;
+}
+
+input[type=checkbox]:checked~div {
+  display: block;
+}
+
+.sminfo {
+  display: inline-block;
+  width: 500px;
+  text-decoration: none;
+  color: black;
+  pointer-events: none;
+}
